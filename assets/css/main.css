@@ -85,6 +85,11 @@ a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
 }
+.bg-base{
+  background-color: var(--accent-color);
+ color: var(--contrast-color);
+ padding: 16px;
+}
 
 h1,
 h2,
@@ -414,7 +419,7 @@ h6 {
     color: var(--nav-color);
   }
 
-  .navmenu .dropdown ul {
+  .dropdown ul {
     margin: 0;
     padding: 10px 0;
     background: var(--nav-dropdown-background-color);
@@ -2020,7 +2025,7 @@ section,
 .service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
   margin-bottom: 20px;
 }
 
